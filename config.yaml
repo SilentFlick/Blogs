@@ -1,7 +1,7 @@
 baseURL: https://blogs.flickcluster.tk
 languageCode: en-us
 defaultContentLanguage: en
-title: Blogs
+title: FlickCluster's Blog
 theme: cupper-hugo-theme
 disqusShortname: silentflick
 enableGitInfo: false
