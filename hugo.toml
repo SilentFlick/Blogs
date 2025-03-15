@@ -1,0 +1,23 @@
+baseURL = "https://blog.tanminhho.com/"
+languageCode = "en"
+title = "TMH's Dev Diary"
+theme = "paper"
+author = "Tan Minh Ho"
+ignoreErrors = ["error-remote-getjson"]
+ignoreLogs = ["warning-goldmark-raw-html"]
+enableInlineShortcodes = true
+enableRobotsTXT = true
+
+[params]
+    color = "linen"
+    rss = true
+    favicon = "favicon.ico"
+    disableHLJS = true
+    disablePostNavigation = false
+    monoDarkIcon = true
+    math = true
+    localKatex = false
+
+    avatar = "Tan Minh Ho"
+    name = "Tan Minh Ho"
+    bio = "A personal dev diary by Tan Minh Ho"
