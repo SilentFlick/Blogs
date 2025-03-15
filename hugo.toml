@@ -30,3 +30,10 @@ enableRobotsTXT = true
 [services]
     [services.rss]
         limit = -1
+
+[menu]
+    [[menu.main]]
+        identifier = "contact"
+        name = "Contact"
+        url = "/contact"
+        weight = 10
