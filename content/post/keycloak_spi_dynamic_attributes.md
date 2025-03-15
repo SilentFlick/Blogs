@@ -1,5 +1,6 @@
 +++
 author = "TMH"
+email = "dev@tanminhho.com"
 title = "Keycloak SPI: Dynamic Attributes"
 date = "2025-03-15"
 tags = [
@@ -52,8 +53,8 @@ This simple configuration allows my custom mapper to include dynamic attributes 
 
 ### Step 2: Dynamically Mapping User Attributes
 
-The real magic happens in the mapping logic. Using `OIDCAttributeMapperHelper.mapClaim`, I built a dynamic mapping model
-that loops through each user attribute and adds it to the token. Here’s how I did it:
+The real magic happens in the mapping logic. Using `mapClaim` from `OIDCAttributeMapperHelper`, I built a dynamic
+mapping model that loops through each user attribute and adds it to the token. Here’s how I did it:
 
 {{<highlight java>}}
 @Override

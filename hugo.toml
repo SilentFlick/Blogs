@@ -9,6 +9,7 @@ enableInlineShortcodes = true
 enableRobotsTXT = true
 
 [params]
+
     color = "linen"
     rss = true
     favicon = "favicon.ico"
@@ -21,3 +22,11 @@ enableRobotsTXT = true
     avatar = "Tan Minh Ho"
     name = "Tan Minh Ho"
     bio = "A personal dev diary by Tan Minh Ho"
+
+    [params.author]
+        email = "dev@tanminhho.com"
+        name = "Tan Minh Ho"
+
+[services]
+    [services.rss]
+        limit = -1
